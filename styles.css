@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 722px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: wheat;
+    background-color: black;
+    text-align: center;
+    background-image: url(background.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    margin: 50px;
+}
+
+h1{
+    font-family: Honk;
+    font-size: 80px;
+    text-shadow: 2px 2px orange;
+}
+
+h2{
+    text-shadow: 1px 1px orange;
+}
+
+h1:hover{
+    text-shadow: 2px 2px cyan;
+}
+
+#container{
+    width: 100%;
+    height: 400px;
+}
+
+.row{
+    width: 100%;
+    float: left;
+}
+
+.column{
+    margin: 10px;
+    width: 110px;
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+    float: left;
+    border: 2px solid cyan;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px darkcyan;
+}
+
+.floating{
+    height: 402px;
+    width: 402px;
+    margin: auto;
+    font-size: 30px;
+}
+
+p{
+    text-align: bottom;
+    padding: 50px;
+    color: darkorange;
+    text-shadow: 5px 5px black;
+}
+
+.cross{
+    background-image: url(orangepac.gif);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+}
+
+.cross:hover{
+    box-shadow: 10px 10px 15px orange;
+}
+
+.zero{
+    background-image: url(pinkpac.gif);
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: center;
+}
+
+.zero:hover{
+    box-shadow: 10px 10px 15px deeppink;
+} 
